@@ -5,6 +5,7 @@ export default function Home({ data }) {
   return (
     <>
       <h1>Sample</h1>
+      <h1>Sample again</h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
         {data.map((item, i) => (
           <div key={i} className="p-8">
